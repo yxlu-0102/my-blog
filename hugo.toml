@@ -19,29 +19,29 @@ defaultContentLanguageInSubdir = true
       profileMode.imageTitle = ""
       [[languages.en.params.profileMode.buttons]]
         name = "Blog"
-        url = "/en/posts/"
+        url = "posts/"
       [[languages.en.params.profileMode.buttons]]
         name = "About"
-        url = "/en/about/"
+        url = "about/"
     [[languages.en.menu.main]]
       name = "Blog"
-      url = "/en/posts/"
+      url = "posts/"
       weight = 1
     [[languages.en.menu.main]]
       name = "Archive"
-      url = "/en/archive/"
+      url = "archive/"
       weight = 2
     [[languages.en.menu.main]]
       name = "Tags"
-      url = "/en/tags/"
+      url = "tags/"
       weight = 3
     [[languages.en.menu.main]]
       name = "About"
-      url = "/en/about/"
+      url = "about/"
       weight = 4
     [[languages.en.menu.main]]
       name = "Search"
-      url = "/en/search/"
+      url = "search/"
       weight = 5
 
   [languages.zh]
@@ -56,29 +56,29 @@ defaultContentLanguageInSubdir = true
       profileMode.imageTitle = ""
       [[languages.zh.params.profileMode.buttons]]
         name = "博客"
-        url = "/zh/posts/"
+        url = "posts/"
       [[languages.zh.params.profileMode.buttons]]
         name = "关于"
-        url = "/zh/about/"
+        url = "about/"
     [[languages.zh.menu.main]]
       name = "博客"
-      url = "/zh/posts/"
+      url = "posts/"
       weight = 1
     [[languages.zh.menu.main]]
       name = "归档"
-      url = "/zh/archive/"
+      url = "archive/"
       weight = 2
     [[languages.zh.menu.main]]
       name = "标签"
-      url = "/zh/tags/"
+      url = "tags/"
       weight = 3
     [[languages.zh.menu.main]]
       name = "关于"
-      url = "/zh/about/"
+      url = "about/"
       weight = 4
     [[languages.zh.menu.main]]
       name = "搜索"
-      url = "/zh/search/"
+      url = "search/"
       weight = 5
 
 # PaperMod 主题参数
