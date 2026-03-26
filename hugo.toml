@@ -1,0 +1,146 @@
+baseURL = "https://yxlu-0102.github.io/my-blog/"
+title = "Yeison's Blog"
+theme = "PaperMod"
+paginate = 5
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+
+# 多语言配置
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+    title = "Yeison's Blog"
+    [languages.en.params]
+      profileMode.title = "Yeison"
+      profileMode.subtitle = "Algorithm Engineer"
+      profileMode.enabled = true
+      profileMode.imageUrl = "/images/profile.png"
+      profileMode.imageTitle = ""
+      [[languages.en.params.profileMode.buttons]]
+        name = "Blog"
+        url = "/en/posts/"
+      [[languages.en.params.profileMode.buttons]]
+        name = "About"
+        url = "/en/about/"
+    [[languages.en.menu.main]]
+      name = "Blog"
+      url = "/en/posts/"
+      weight = 1
+    [[languages.en.menu.main]]
+      name = "Archive"
+      url = "/en/archive/"
+      weight = 2
+    [[languages.en.menu.main]]
+      name = "Tags"
+      url = "/en/tags/"
+      weight = 3
+    [[languages.en.menu.main]]
+      name = "About"
+      url = "/en/about/"
+      weight = 4
+    [[languages.en.menu.main]]
+      name = "Search"
+      url = "/en/search/"
+      weight = 5
+
+  [languages.zh]
+    languageName = "中文"
+    weight = 2
+    title = "Yeison 的博客"
+    [languages.zh.params]
+      profileMode.title = "Yeison"
+      profileMode.subtitle = "算法工程师"
+      profileMode.enabled = true
+      profileMode.imageUrl = ""
+      profileMode.imageTitle = ""
+      [[languages.zh.params.profileMode.buttons]]
+        name = "博客"
+        url = "/zh/posts/"
+      [[languages.zh.params.profileMode.buttons]]
+        name = "关于"
+        url = "/zh/about/"
+    [[languages.zh.menu.main]]
+      name = "博客"
+      url = "/zh/posts/"
+      weight = 1
+    [[languages.zh.menu.main]]
+      name = "归档"
+      url = "/zh/archive/"
+      weight = 2
+    [[languages.zh.menu.main]]
+      name = "标签"
+      url = "/zh/tags/"
+      weight = 3
+    [[languages.zh.menu.main]]
+      name = "关于"
+      url = "/zh/about/"
+      weight = 4
+    [[languages.zh.menu.main]]
+      name = "搜索"
+      url = "/zh/search/"
+      weight = 5
+
+# PaperMod 主题参数
+[params]
+  env = "production"
+  description = "Yeison's personal blog about technology and programming"
+  author = "Yeison"
+  defaultTheme = "auto"  # 自动跟随系统明暗模式
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+  disableSpecial1stPost = false
+  disableScrollToTop = false
+  hidemeta = false
+  hideSummary = false
+  showtoc = true
+
+  [params.homeInfoParams]
+    Title = "Welcome"
+    Content = "A blog about technology, programming, and more."
+
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:yxlu0102@gmail.com"
+  [[params.socialIcons]]
+    name = "googlescholar"
+    url = "https://scholar.google.com.hk/citations?user=FETrS_cAAAAJ&hl=zh-CN"
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/yxlu-0102"
+  [[params.socialIcons]]
+    name = "instagram"
+    url = "https://www.instagram.com/yyyeison_lu"
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "http://linkedin.com/in/yexin-lu-8344492a5"
+
+  # 搜索功能
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    location = 0
+    distance = 1000
+    threshold = 0.4
+    minMatchCharLength = 0
+    keys = ["title", "permalink", "summary", "content"]
+
+# 搜索功能需要的输出格式
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+# 代码高亮
+[markup]
+  [markup.highlight]
+    noClasses = false
+    anchorLineNos = true
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    style = "monokai"
