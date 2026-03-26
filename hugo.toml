@@ -15,7 +15,7 @@ defaultContentLanguageInSubdir = true
       profileMode.title = "Yeison"
       profileMode.subtitle = "Algorithm Engineer"
       profileMode.enabled = true
-      profileMode.imageUrl = "/images/profile.png"
+      profileMode.imageUrl = "images/profile.png"
       profileMode.imageTitle = ""
       [[languages.en.params.profileMode.buttons]]
         name = "Blog"
@@ -52,7 +52,7 @@ defaultContentLanguageInSubdir = true
       profileMode.title = "Yeison"
       profileMode.subtitle = "算法工程师"
       profileMode.enabled = true
-      profileMode.imageUrl = ""
+      profileMode.imageUrl = "images/profile.png"
       profileMode.imageTitle = ""
       [[languages.zh.params.profileMode.buttons]]
         name = "博客"
