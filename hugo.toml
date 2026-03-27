@@ -11,6 +11,7 @@ defaultContentLanguageInSubdir = true
     languageName = "English"
     weight = 1
     title = "Yeison's Blog"
+    contentDir = "content/en"
     [languages.en.params]
       profileMode.title = "Yeison"
       profileMode.subtitle = "Algorithm Engineer"
@@ -48,6 +49,7 @@ defaultContentLanguageInSubdir = true
     languageName = "中文"
     weight = 2
     title = "Yeison 的博客"
+    contentDir = "content/zh"
     [languages.zh.params]
       profileMode.title = "Yeison"
       profileMode.subtitle = "算法工程师"
