@@ -1,0 +1,11 @@
+<script>
+    window.addEventListener("load", function () {
+        const menu = document.getElementById("menu");
+        if (!menu) return;
+
+        // Keep the menu anchored to the first item instead of restoring
+        // the last horizontal scroll position across page navigations.
+        localStorage.removeItem("menu-scroll-position");
+        menu.scrollLeft = 0;
+    });
+</script>
